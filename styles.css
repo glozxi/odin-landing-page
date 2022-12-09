@@ -16,11 +16,12 @@ a {
     align-items: center;
     font-size: 18px;
     color: #E5E7EB;
+    padding: 10px 32px;
 }
 
 .header-right {
     display: flex;
-    gap: 10px;
+    gap: 32px;
 }
 
 .logo {
@@ -31,7 +32,7 @@ a {
 .hero {
     background-color: #1F2937;
     display: flex;
-    
+    padding: 10px 32px;
 }
 
 .hero-text {
@@ -43,4 +44,35 @@ a {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-header {
+    font-weight: extra-bold;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.information-images {
+    display: flex;
+    justify-content: center;
+}
+
+.image-and-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+button {
+    width: fit-content;
+    height: fit-content;
 }
