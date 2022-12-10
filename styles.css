@@ -162,6 +162,7 @@ button {
     justify-content: space-between;
     align-items: center;
     border-radius: 15px;
+    gap: 5px;
 }
 
 .call-to-action > button {
