@@ -1,7 +1,13 @@
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto/Roboto-Medium.ttf);
+}
+
 body {
     display: flex;
     flex-direction: column;
-    font-family:'Roboto', Courier, monospace;
+    font-family: Roboto, Courier, monospace;
+    flex: 1 1 auto;
 }
 
 a {
@@ -16,7 +22,7 @@ a {
     align-items: center;
     font-size: 18px;
     color: #E5E7EB;
-    padding: 10px 32px;
+    padding: 30px 52px;
 }
 
 .header-right {
@@ -32,12 +38,15 @@ a {
 .hero {
     background-color: #1F2937;
     display: flex;
-    padding: 10px 32px;
+    padding: 30px 52px;
+    justify-content: space-between;
 }
 
 .hero-text {
     display: flex;
     flex-direction: column;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .hero-main-text {
@@ -61,11 +70,14 @@ a {
 .information-images {
     display: flex;
     justify-content: center;
+    gap: 32px;
 }
 
 .image-and-text {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    font-size: 18px;
 }
 
 .quote {
@@ -75,4 +87,16 @@ a {
 button {
     width: fit-content;
     height: fit-content;
+}
+
+.hero > img {
+    height: 300px;
+    object-fit: contain;
+}
+
+.image-and-text > img {
+    width: 100px;
+    object-fit: contain;
+    border-radius: 25px;
+    border: 2px solid #3882F6;
 }
