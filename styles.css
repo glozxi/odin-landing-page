@@ -22,7 +22,12 @@ a {
     align-items: center;
     font-size: 18px;
     color: #E5E7EB;
-    padding: 30px 52px;
+}
+
+.header, .hero {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 24px;
 }
 
 .header-right {
@@ -38,8 +43,11 @@ a {
 .hero {
     background-color: #1F2937;
     display: flex;
-    padding: 30px 52px;
+    padding-top: 72px;
+    padding-bottom: 72px;
     justify-content: space-between;
+    gap: 32px;
+    flex-shrink: 1;
 }
 
 .hero-text {
@@ -47,6 +55,7 @@ a {
     flex-direction: column;
     font-size: 18px;
     color: #E5E7EB;
+    gap: 8px;
 }
 
 .hero-main-text {
@@ -59,18 +68,24 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-left: 64px;
+    padding-right: 64px;
+    justify-content: center;
+    padding-bottom: 60px;
 }
 
 .information-header {
     font-weight: extra-bold;
     font-size: 36px;
     color: #1F2937;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .information-images {
     display: flex;
     justify-content: center;
-    gap: 32px;
+    gap: 14px;
 }
 
 .image-and-text {
@@ -78,6 +93,7 @@ a {
     flex-direction: column;
     align-items: center;
     font-size: 18px;
+    text-align: center;
 }
 
 .quote {
@@ -95,8 +111,12 @@ button {
 }
 
 .image-and-text > img {
-    width: 100px;
+    width: 200px;
     object-fit: contain;
     border-radius: 25px;
     border: 2px solid #3882F6;
+}
+
+.image-and-text > div {
+    width: 200px;
 }
